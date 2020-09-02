@@ -13,9 +13,3 @@ function Character(name, type) {
 
 export default Character;
 
-console.log(`ggdkgh`)
-
-const test1 = new Character('gleb', 'sword');
-console.log(test1);
-test1.damage(9999);
-console.log(test1.health);
