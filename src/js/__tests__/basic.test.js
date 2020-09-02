@@ -8,11 +8,11 @@ describe('check character.prototype.damage', () => {
     const received = test1.health;
     expect(received).toEqual(expected);
   });
-  test(`the value of health should be 0 `, () => {
+  test('the value of health should be 0 ', () => {
     const expected = 0;
     const test1 = new Character('gleb', 'sword');
     test1.damage(9999);
     const received = test1.health;
     expect(received).toEqual(expected);
-  })
+  });
 });

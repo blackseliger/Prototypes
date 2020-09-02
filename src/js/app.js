@@ -12,4 +12,3 @@ function Character(name, type) {
 }
 
 export default Character;
-
